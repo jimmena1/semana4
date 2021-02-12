@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document4</title>
+	<link rel="stylesheet" type="text/css" href="esti.css"></head>
+
+<body background="fondoe.jpg">
+	<script type="text/javascript">
+	    function suma () {
+		var n1= Number(document.getElementById("numu").value);
+		var n2= Number(document.getElementById("numd").value);
+        var res=n1+n2;
+		document.getElementById('resu').value=res;
+	}
+</script>
+<form>
+		<label > <div class="d"> #1 Calculadora</label><br>
+		<input type="text" id="numu" placeholder="Ingrese un numero" ><br>
+		<input type="text" id="numd" placeholder="Ingrese un numero" ><br>
+		
+		
+		<input type="button" value="Ingresar" onclick="suma();">
+		<br><br>
+		
+		<label >Resultado </label><br>
+		<input type="" id="resu" value="">
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document4</title>
+	<link rel="stylesheet" type="text/css" href="esti.css"></head>
+
+<body background="fondoe.jpg">
+</head>
+
+<body>
+	<script type="text/javascript">
+       var m=0;
+        x = [];
+	    function suma() {
+		var n1= Number(document.getElementById("num1").value);
+		var n2= Number(document.getElementById("num2").value);
+        var res=n1+n2;
+		document.getElementById('resut').value=res;
+		x.push(res);
+	    res.value=x.length;
+	    document.getElementById('cuenta').value=x;
+        
+
+	    }
+
+</script>
+<form>
+		<label > <div class="d"> #1 Calculadora</label><br>
+		<input type="text" id="num1" placeholder="Ingrese un numero" ><br>
+		<input type="text" id="num2" placeholder="Ingrese un numero" ><br>
+	
+		<div class="l"><input type="button" value="=" onclick="suma();"></div>
+		<br>
+		
+		<label >TOTAL </label><br>
+		<input type="" id="resut" value=""><br>
+		<label >Cuenta </label><br>
+		<input type="" id="cuenta" value="">
+
+	</form>
+<img class="cd" src="rf.jpg">
+<img class="z" src="jvi.jpg">
+</body>
+</html>

@@ -1,0 +1,76 @@
+.d{
+	
+	
+	color: black;
+	
+	font-family:avocado creamy;
+	font-size:60px;
+	position: absolute;
+	left: 43%;
+	top: 5%;
+
+}
+.t{
+	
+	
+	color: black;
+	
+	font-family:avocado creamy;
+	font-size:60px;
+	position: absolute;
+	left:120%;
+	top: 50%;
+
+}
+.l{
+	
+	
+	
+	font-size:20px;
+	position: absolute;
+	left:28%;
+	top: 40%;
+
+}
+
+.l{
+	
+	
+	
+	font-size:20px;
+	position: absolute;
+	left:28%;
+	top: 40%;
+
+}
+
+.cd{
+	
+	
+	
+	width: 100%;
+	height: 50%;
+position: absolute;
+	top:5%;
+	left: -160%;
+	
+}
+.cd:hover{
+	opacity: 3%;
+}
+
+.z{
+	
+	
+	
+	width: 100%;
+	height: 50%;
+position: absolute;
+	top:50%;
+	left: 120%;
+	
+}
+.z:hover{
+	opacity: 3%;
+}
+
