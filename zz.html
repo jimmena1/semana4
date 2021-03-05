@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>taller2</title>
+	<link rel="stylesheet" type="text/css" href="esti2.css">
+	<script>
+	    var g=10;
+		var y=1;
+		
+	</script>
+</head>
+<body bgcolor="#F6EDD2">
+<body onload="ejecutar()">
+<script>
+	function ejecutar(){
+	
+	finales=setInterval(comienza,1000);
+}
+	function comienza() {	
+		if (y==5) {
+			clearInterval(finales);
+			document.getElementById("comienza").innerHTML = g;
+			finales=setInterval(contar,1000);
+		}
+		y+=1;
+	}
+	function contar() {
+		
+		if (g==0) {
+			clearInterval(finales);
+			document.getElementById("comienza").innerHTML = g;	
+			finales=setInterval(termino,1000);
+		}
+		
+       document.getElementById("comienza").innerHTML = g;	
+       g=g-1;
+   }
+   function termino () {
+	clearInterval(finales);
+   document.getElementById("comienza").innerHTML = "termino";
+
+	}	
+   
+	
+</script>
+
+<div id="termino" class="ter"><div id="comienza" class="s"><font class="letra">HELLO</font></div></div>
+
+</body>
+</html>

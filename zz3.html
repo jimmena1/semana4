@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>taller3</title>
+	<link rel="stylesheet" type="text/css" href="esti2.css">
+</head>
+<body bgcolor="#F6EDD2">
+<div onmousemove="cuadroa(event)" onmouseout="cuadrof()" class="h"></div>
+
+
+<p id="put"></p>
+
+<script>
+function cuadradoa(e) {
+  var h= e.clienth;
+  var t = e.clientt;
+  var de = "(" + h + "," + t + ")";
+  document.getElementById("put").innerHTML = de;
+  if (h=>610) {
+  	document.getElementById("put").innerHTML = "se encuentra: adentro";
+  }
+ 
+}
+function cuadrof() {
+  document.getElementById("put").innerHTML = "se encuentra: afuera";
+}
+</script>
+</body>
+</html>
