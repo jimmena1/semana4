@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>taller8</title>
+	<link rel="stylesheet" type="text/css" href="estil.css">
+</head>
+<body bgcolor="#94F1C4">
+<body onload="aleatorio()" onmousedown="clico(event)">
+  <div class="cuad" id="cuadrado"></div>
+  <script>
+   function  aleatorio (){
+    var nux=Math.floor(Math.random() * (1001-1) + 1) ;
+       var nuy=Math.floor(Math.random() * (501-1) + 1) ;
+        cuadrado.style.left=nux+"px"
+         cuadrado.style.top=nuy+"px"
+   }
+   function clico(event){
+ var nux=Math.floor(Math.random() * (1001-1) + 1) ;
+       var nuy=Math.floor(Math.random() * (501-1) + 1) ;
+        cuadrado.style.left=nux+"px"
+         cuadrado.style.top=nuy+"px"
+   }
+  </script>
+
+</body>
+</html>
