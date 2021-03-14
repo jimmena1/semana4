@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="estil.css">
+	
+	<title>Punto2</title>
+</head>
+<body  bgcolor="#F4B9CD">
+<body onload="cuadrado()" onclick="cuadrado()">
+    
+    <div><div class="rombo" id="cuadro"></div></div>	
+<div class="jimme">
+        <p>
+         <div class="">&nbsp;TIME: </div><div  class="" onload="rica()" id="vi"></div>
+         <div class="" >&nbsp;&nbsp;&nbsp;&nbsp;SCORE:</div><div  class="" id="mena"></div>
+         </p>
+    </div>
+
+<script>
+     
+function cuadrado() {
+        var px="px";
+        var width = Math.floor(Math.random() * ((801) - 10) + 10);
+        var wi = width+px;
+        document.getElementById('cuadro').style.left=wi;
+        var height = Math.floor(Math.random() * ((301) - 50) + 50);
+        var he = height+px;
+        document.getElementById('cuadro').style.top=he;
+        var ok = document.getElementById('mena');
+        ed+=10;
+        ok.innerHTML=ed;
+}
+var ed=-10;    
+var j = 60;
+var sh = 0;
+var nico = function rica(){
+document.getElementById('vi').innerHTML= j;
+if (j==0 && sh==0) {
+        alert("Se te acabó el tiempo !!");
+        clearInterval(s);
+        sh=1;   
+    }
+    else{
+        j-=1;
+    }
+}
+s=setInterval(nico,1000);   
+    </script>
+
+</body>
+</html>
