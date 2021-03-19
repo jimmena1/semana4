@@ -1,0 +1,47 @@
+.cuadrado2{
+	position: absolute;
+	height: 600px;
+	width: 500px;
+    border: 4px solid #0E0709;
+	background-color:#F8BBD0  ;
+	top:140px;
+	left: 800px;
+
+
+}
+.cuadrado3{
+	position: absolute;
+	height: 600px;
+	width: 700px;
+	background-color:#FC558F  ;
+	top:140px;
+	left: 100px;
+
+
+}
+
+.mon{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background-color:#EC5151;
+	z-index: 2;
+	
+
+}
+.c3{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	z-index: 3;
+}
+	.in{
+	position: absolute;
+	display: flex;
+	background-color: #94BCDE ;
+	font-size:60px;
+	font-family: good people;
+	left: 400px;
+	top: 50px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilosfinal.css" >
+	<title>Final</title>
+</head>
+<body background="cd.jpg">
+<body onload="m()">
+	<div class="cuadrado3"></div>
+	<div class="in">
+<div>TIEMPO:&nbsp;</div>
+<div class="" id="ho"></div>
+<div>&nbsp;  &nbsp;  &nbsp;SCORE:</div>
+<div>100</div>
+		
+	</div>
+	<div class="c3" id="c3"></div>
+<div onmousedown="miee(event)" onmousemove="mie(event)"   class="cuadrado2" id="2c">
+	<div class="mon" id="ed"></div>
+</div>
+<script >
+	function m() {
+        
+     	var topi = Math.floor(Math.random() * ((500) - 140) + 140);
+     	var zto= topi+"px";
+     	document.getElementById('c3').style.top=zto;
+
+     }
+     var w=1;
+ var jimme = function co(){
+     
+             w+=1;
+             c3.style.left=w+"px";
+             if (w==1800) {
+             	w-=1;
+             	
+             	
+             }
+
+ }
+ d= setInterval(jimme,2);
+	function mie(event){
+   var x = event.clientX; var y = event.clientY;
+}
+function miee(event){
+   var x = event.clientX;
+   var y = event.clientY;
+    var a= ed.style.top= y-150+"px";
+   ed.style.left= x-834+"px";
+   if (a==1000) {
+   	alert("hola");
+
+   }
+
+}
+
+ var c = 1;
+   var yh = function (){
+    document.getElementById('ho').innerHTML= c++;
+
+}
+
+a=setInterval(yh,1000);
+</script>
+</body>
+</html>
